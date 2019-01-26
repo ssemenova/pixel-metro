@@ -1,0 +1,16 @@
+# Site settings
+title:       Pixel Metro
+email:       novasofiya@gmail.com
+author:      Sofiya Semenova
+description:
+baseexternal_url:     ""
+external_url:         ""
+date_format: "%b %-d, %Y"
+encoding: utf-8
+
+markdown:     kramdown
+permalink:    :title
+sass:
+  compressed: true
+  sass_dir: _sass
+  style: compressed

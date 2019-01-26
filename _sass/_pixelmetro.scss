@@ -1,0 +1,67 @@
+// .controls {
+//   float: right;
+// }
+
+#canvas {
+  border: 3px solid black;
+}
+
+
+/* BUTTONS */
+button {
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  padding: 2px 5px 2px 5px;
+  background-color: white;
+}
+.lineButton.active {
+  background-color: #c6c6c6;
+}
+
+#redButton {
+  color: #d10d0d;
+  &.active {
+    background-color: #d10d0d;
+    color: white;
+  }
+}
+
+#orangeButton {
+  color: #d16e0d;
+  &.active {
+    background-color: #d16e0d;
+    color: white;
+  }
+}
+
+#yellowButton {
+  color: #e9e600;
+  &.active {
+    background-color: #e9e600;
+    color: white;
+  }
+}
+
+#greenButton {
+  color: #0dbd0f;
+  &.active {
+    background-color: #0dbd0f;
+    color: white;
+  }
+}
+
+#blueButton {
+  color: #0e67cb;
+  &.active {
+    background-color: #0e67cb;
+    color: white;
+  }
+}
+
+#purpleButton {
+  color: #aa0cd2;
+  &.active {
+    background-color: #aa0cd2;
+    color: white;
+  }
+}
