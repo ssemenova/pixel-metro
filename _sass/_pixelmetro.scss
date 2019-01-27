@@ -6,6 +6,10 @@
   border: 3px solid black;
 }
 
+h1 {
+  font-size: 3em;
+  font-style: Montserrat;
+}
 
 /* BUTTONS */
 button {
@@ -14,8 +18,16 @@ button {
   padding: 2px 5px 2px 5px;
   background-color: white;
 }
-.lineButton.active {
+.lineButton.active, .featuresButton.active {
   background-color: #c6c6c6;
+}
+
+#clearButton {
+    color: red;
+}
+
+#saveButton {
+  color: #aa0cd2;
 }
 
 #redButton {
