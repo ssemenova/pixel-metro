@@ -185,8 +185,9 @@ let redraw = () => {
     context.beginPath();
     if (clickX.length > 1 && clickDrag[i]) {
       context.moveTo(clickX[i-1], clickY[i-1]);
+
     } else {
-      context.moveTo(clickX[0]-.5, clickY[0]-.5);
+      context.moveTo(clickX[i]-.5, clickY[i]-.5);
     }
     context.lineTo(clickX[i], clickY[i]);
     context.closePath();
